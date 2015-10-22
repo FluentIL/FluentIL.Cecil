@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{98936D23-E5EB-4318-94E7-AAE580377C16}</ProjectGuid>
+    <ProjectGuid>{D8C0110A-7355-44A1-971C-0F78DAFC2580}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ConsoleApplicationThatWillBeChanged</RootNamespace>
-    <AssemblyName>ConsoleApplicationThatWillBeChanged</AssemblyName>
+    <RootNamespace>ConsoleProgramThatWillBeChanged</RootNamespace>
+    <AssemblyName>ConsoleProgramThatWillBeChanged</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <TargetFrameworkProfile>
     </TargetFrameworkProfile>
@@ -50,10 +50,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\FluentIL.Metaprogramming\FluentIL.Metaprogramming.csproj">
-      <Project>{9FA6261D-6C93-4BE4-B792-0CEF69080A00}</Project>
-      <Name>FluentIL.Metaprogramming</Name>
-    </ProjectReference>
+    <None Include="app.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
