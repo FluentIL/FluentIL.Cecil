@@ -75,7 +75,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\src\FluentIL.Cecil\FluentIL.Cecil.csproj">
+    <ProjectReference Include="..\..\src\FluentIL.Cecil\FluentIL.Cecil.csproj">
       <Project>{12e395db-74d2-4d03-b1d2-a786ed9e85a8}</Project>
       <Name>FluentIL.Cecil</Name>
     </ProjectReference>

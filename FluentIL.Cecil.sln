@@ -9,7 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3EBD7191-EBD
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{681EC033-3120-4C00-B2AC-B9226FB53BD7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentIL.Cecil.Tests", "FluentIL.Cecil.Tests\FluentIL.Cecil.Tests.csproj", "{5571788B-79B5-4B1E-9DA7-F46669116AA9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentIL.Cecil.Tests", "test\FluentIL.Cecil.Tests\FluentIL.Cecil.Tests.csproj", "{5571788B-79B5-4B1E-9DA7-F46669116AA9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>FluentIL.Cecil</id>
+        <version>1.0.2</version>
+        <title>FluentIL.Cecil</title>
+        <authors>Administrator</authors>
+        <owners>ElemarJR</owners>
+        <projectUrl>http://elemarjr.net/tag/FluentIL</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>FluentIL helper to Mono.Cecil.</description>
+        <dependencies>
+            <dependency id="FluentIL" version="1.0.2" />
+            <dependency id="Mono.Cecil" version="0.9.5.2" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="build\FluentIL.Cecil.dll" target="lib\FluentIL.Cecil.dll" />
+    </files>
+</package>
