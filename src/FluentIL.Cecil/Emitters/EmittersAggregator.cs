@@ -54,6 +54,12 @@ namespace FluentIL.Cecil.Emitters
                 ilEmitter.Emit(opcode, arg);
         }
 
+        protected override void OnEmit(OpCode opcode, float arg)
+        {
+            foreach (var ilEmitter in Emitters)
+                ilEmitter.Emit(opcode, arg);
+        }
+
         protected override void OnEmit(OpCode opcode, Label arg)
         {
             foreach (var ilEmitter in Emitters)

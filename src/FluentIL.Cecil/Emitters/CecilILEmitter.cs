@@ -84,6 +84,11 @@ namespace FluentIL.Cecil.Emitters
             ProcessInstruction(_ilProcessorField.Create(opcode.ToCecil(), arg));
         }
 
+        protected override void OnEmit(OpCode opcode, float arg)
+        {
+            ProcessInstruction(_ilProcessorField.Create(opcode.ToCecil(), arg));
+        }
+
         protected override void OnEmit(OpCode opcode, Label arg)
         {
             var value = (int)typeof(Label)
